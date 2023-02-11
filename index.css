@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .img-size{
+    height: 350px;
+    width: 100%;
+  }
+  #slider li{
+    height: 5px;
+    width: 5px;
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border:2px solid orange;
+  }
+  .active{
+    transition: 1s;
+    background-color: orange !important;
+  }
+  
+  /* Product card */
+  .deal-cards{
+    align-items: center;
+    margin: auto;
+  }
+  
+  .link-style{
+    display: inline-block;
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+    color: black;
+  }
+  .link-style:hover{
+    text-decoration: none;
+    color: black;
+  }
+  .card{
+    display: flex;
+    height: 400px;
+    width: 300px;
+    overflow: hidden;
+  }
+  .price-rate{
+    display: flex;
+    justify-content: space-between;
+  }
+  .pro-name{
+    margin: 5px;
+    font-size: 16px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  p{
+    margin: 5px;
+  }

@@ -1,0 +1,67 @@
+[
+    {
+        "name":"product hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh11",
+        "img":"img/productImage.png",
+        "category":"Mobiles",
+        "price":300,
+        "rating":3.8,
+        "productCode":101
+    },
+    {
+        "name":"product 12",
+        "img":"img/productImage.png",
+        "category":"Mobiles",
+        "price":300,
+        "rating":3.8,
+        "productCode":102
+    },
+    {
+        "name":"product 13",
+        "img":"img/productImage.png",
+        "category":"Mobiles",
+        "price":300,
+        "rating":3.8,
+        "productCode":103
+    },
+    {
+        "name":"product 14",
+        "img":"img/productImage.png",
+        "category":"Mobiles",
+        "price":300,
+        "rating":3.8,
+        "productCode":104
+    },
+    {
+        "name":"product 21",
+        "img":"img/productImage.png",
+        "category":"Fashion",
+        "price":300,
+        "rating":3.8,
+        "productCode":201
+    },
+    {
+        "name":"product 22",
+        "img":"img/productImage.png",
+        "category":"Fashion",
+        "price":300,
+        "rating":3.8,
+        "productCode":202
+    },
+    {
+        "name":"product 23",
+        "img":"img/productImage.png",
+        "category":"Fashion",
+        "price":300,
+        "rating":3.8,
+        "productCode":203
+    },
+    {
+        "name":"product 24",
+        "img":"img/productImage.png",
+        "category":"Fashion",
+        "price":300,
+        "rating":3.8,
+        "productCode":204
+    }
+    
+]
