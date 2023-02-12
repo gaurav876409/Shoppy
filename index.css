@@ -19,13 +19,14 @@
     transition: 1s;
     background-color: orange !important;
   }
-  
-  /* Product card */
   .deal-cards{
-    align-items: center;
-    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    transition: 3s;
   }
   
+  /* Product card */ 
   .link-style{
     display: inline-block;
     margin: 10px;
@@ -59,4 +60,18 @@
   }
   p{
     margin: 5px;
+  }
+
+  /* Product category wise */
+
+  .cat-head{
+    margin: 0;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .cat-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
