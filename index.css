@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
   }
+  h2{
+    text-align: center;
+  }
+  /* image slider */
   .img-size{
     height: 350px;
     width: 100%;
@@ -15,7 +19,7 @@
     border-radius: 50%;
     border:2px solid orange;
   }
-  .active{
+  #slider .active{
     transition: 1s;
     background-color: orange !important;
   }
@@ -63,7 +67,6 @@
   }
 
   /* Product category wise */
-
   .cat-head{
     margin: 0;
     padding: 0 40px;
@@ -75,3 +78,57 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+
+
+  /* testimonial */
+  .row{
+    justify-content: center;
+  }
+  .testimonial-box{
+    border: 3px solid orange;
+    box-shadow: 1px 1px 5px orange;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    gap: 50px;
+  }
+  .testimonial{
+    margin: 5%;
+  }
+  .testimonial p{
+    font-size: 18px;
+    font-weight: 200;
+  }
+  .line{
+    border: 1px solid orange;
+    width: 60%;
+    height: 2px;
+    margin-left: 20%;
+  }
+ 
+  .testimonial-person{
+    margin: 5%;
+  }
+  .testimonial-person img{
+    width: 120px;
+    height: 130px;
+    border-radius: 45%;
+  }
+  .testimonial-person p{
+    font-weight: 1000;
+    margin: 5% 0;
+  }
+ .fa-quote-left{
+  color: orange;
+  font-size: 42px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+ }
+ .fa-quote-right{
+  color: orange;
+  font-size: 42px;
+  position: absolute;
+  left: 370px;
+  top: 150px;
+ }
