@@ -1,18 +1,20 @@
 const url=new URLSearchParams(window.location.search);
 const cat=url.get(`cat`);
 // -------------------------------------------------//
-fetch("products.json")
+fetch("data.json")
 .then(function(response){
     return response.json();
 })
-.then(function(products){
+.then(function(data){
     let catHead=document.querySelector(".cat-head");
     let catCard=document.querySelector(".cat-card");
+    let title=document.querySelector("title");
     let catHeadDetail=cat+``;
     let catCardDetail=``;
-    for(let p of products){
+    for(let p of data){
         if(`${p.category}`== cat){
-            catCardDetail +=`${card(p.img,p.name,p.productCode,p.rating,p.price)}`;
+            title.innerHTML=cat;
+            catCardDetail +=`${card(p.image[0],p.name,p.id,p.rating,p.price)}`;
         }
     }
     catHead.innerHTML=catHeadDetail;

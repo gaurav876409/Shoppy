@@ -12,9 +12,11 @@ fetch("data.json")
 		let price = document.querySelector(".price");
 		let disprice = document.querySelector(".dis-price");
 		let description = document.querySelector(".des");
-		let suggestion = document.querySelector(".sugg-card")
+		let suggestion = document.querySelector(".sugg-card");
+		let title=document.querySelector("title");
 		for (let detail of data) {
 			if (`${detail.id}` == id) {
+				title.innerHTML=`${detail.name}`;
 				mainimage.innerHTML = `<img src="${detail.image[0]}">`;
 				name.innerHTML = `${detail.name}`;
 				rating.innerHTML = `${detail.rating}`;
