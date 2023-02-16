@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/nav_style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section id="nav" class="container sticky">
+
+        <div class="logo">
+            <a href="#"><img id="logopic" src="/images/logo.png" alt="logo"></a>
+        </div>
+       
+     
+        <div class="search">
+            <form action="#">
+                <input type="text" class="in_search"
+                    placeholder=" Search Items..."
+                    name="search">
+                <button id="search_bt">
+                    <i class="bt_search fa fa-search"
+                        style="font-size: 27px;">
+                    </i>
+                </button>
+            </form>
+        </div>
+
+        <div class="nav_mid">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contacts</a>
+            <a id="user_bt" href="#user">
+                <i class="fa fa-user" style="font-size: 22px;"></i>
+                Sign in
+            </a>
+            <a id="cart_bt" href="#cart">
+                    <i class="fa fa-shopping-cart" style="font-size: 22px"></i>
+            </a>
+        </div>
+    </section>
+    <div style="width: 100%;height: 84px;"></div>
+    <div class="category">
+        <div class="cat">
+            <div>
+                <a href="#grocery"><img class="items_category" src="/images/grocery.jpg" alt="grocery"></a>
+
+            </div>
+            <div>
+                <a href="#grocery">Grocery</a>
+            </div>
+            
+        </div>
+        <div class="cat">
+            <div>
+                <a href="#mobiles"><img class="items_category" src="/images/mobiles.jpg" alt="mobiles"></a>
+            </div>
+            <div>
+                <a href="#mobiles">Mobiles</a>
+            </div>
+
+        </div>
+        <div class="dropdown">
+        <div class="cat">
+            <div>
+                <a><img class="items_category" src="/images/electronics.jpg" alt="electronics"></a>
+            </div>
+            <div>
+                <a>Electronics<i class="fa fa-angle-down" style="margin-left: 5px;"></i></a>
+            </div>
+            </div>
+           <div class="dropdown-contant">
+            <a href="#laptop">Laptop</a>
+            <a href="#headphone">Headphones</a>
+            <a href="#speaker">Speakers</a>
+           </div>
+        </div>
+        <div class="dropdown">
+        <div class="cat">
+            <div>
+                <a><img class="items_category" src="/images/fashion.jpg" alt="fashion"></a>
+            </div>
+            <div>
+                <a>Fashion<i class=" fa fa-angle-down" style="margin-left: 5px;"></i></a>
+            </div>
+            </div>
+            <div class="dropdown-contant">
+                <a href="#men">Men's Wear</a>
+                <a href="#women">Women's Wear</a>
+                <a href="#watch">Watches</a>
+                <a href="#kid">Kids</a>
+               </div>
+
+        </div>
+        <div class="dropdown">
+        <div class="cat">
+            <div>
+                <a><img class="items_category" src="/images/appliance.jpg" alt="appliance"></a>
+            </div>
+            <div>
+                <a>Appliances<i class=" fa fa-angle-down" style="margin-left: 5px;"></i></a>
+            </div>
+        </div>
+        <div class="dropdown-contant">
+            <a href="#tv">Televisions</a>
+            <a href="#ac">Air Conditioners</a>
+            <a href="#kitchen">Kitchen Appliances</a>
+            <a href="#frige">Refrigerators</a>
+           </div>
+        </div>
+
+    </div>
+    
+    
+    <div class="overlay"></div>
+    
+    <div class="account-page">
+        <div class="log_container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="login()">Login</span>
+                            <span onclick="register()">Register</span>
+                            <hr id="Indicator">
+                        </div>
+                        <form id="LoginForm">
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="password">
+                            <button type="submit" class="btn">Login</button>
+                            <a href="">Forgot password</a>
+                        </form>
+                        <form id="RegForm">
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="password">
+                            <button type="submit" class="btn">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <section>
+        <div class="gang1">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum error optio voluptates voluptas distinctio nostrum necessitatibus amet, magni id reprehenderit.</p>
+        </div>
+        <div class="gang2">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, quisquam vel! Voluptatum tempore quis facilis?</p>
+        </div>
+        <div class="gang1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem sunt maxime laborum quisquam nisi. Inventore, repellendus. Perferendis, voluptas! Placeat perspiciatis quo minima itaque laborum! Tenetur fuga veniam tempora a maiores.</p>
+        </div>
+        <div class="gang2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore asperiores quae, quidem, quaerat facere illum, perspiciatis delectus praesentium laborum repellendus consectetur repudiandae. Similique eum atque perspiciatis? Nostrum velit officiis obcaecati, quis qui similique sequi porro est repellat blanditiis ipsum, quod placeat expedita hic. Hic repudiandae modi, eius nam libero nemo.</p>
+        </div>
+        <div class="gang1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ipsum.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_container">
+        <a class="footer__logo" href="#">
+          <img id="logopic" src="/images/logo.png"/>
+        </a>
+         <div class="footer__social">
+           <a href="https://www.instagram.com/fitme24.5/">
+             <i class="footer_icon fa fa-instagram"></i>
+           </a>
+           <a href="#">
+           <i class="footer_icon fa fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="footer_icon fa fa-youtube-play"></i>
+          </a>
+          <a href="#">
+            <i class="footer_icon fa fa-facebook"></i>
+          </a>
+         </div>
+         <div class="footer__links col1">
+           <a href="#">About us</a>
+           <a href="#">Contacts</a>
+           <a href="#">Blog</a>
+           
+         </div>
+         <div class="footer__links col2">
+          <a href="#">Careers</a>
+          <a href="#">Support</a>
+          <a href="#">Privacy Policy</a>
+          
+        </div>
+        <div class="footer__copyright">
+          &copy; Shoppy. All Rights Reserved.
+        </div>
+        </div>
+        
+      </footer>
+
+      <script src="/nav_js.js"></script>
+</body>
+</html>

@@ -1,0 +1,293 @@
+html{
+    scroll-behavior: smooth;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+.hidden
+{
+    visibility: hidden;
+}
+.sticky
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/*********************//*Nav bar*//*****************/
+.container
+{
+    background-color: rgb(255, 243, 220);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px 0px;
+    width: 100%;
+    height: 60px;
+    border: 2px solid #ff630e;
+    border-radius: 10px;
+    transition: top 0.5s;
+    z-index: 1;
+}
+
+#logopic
+{
+    width: 140px;
+    height: auto;
+
+}
+.nav_mid{
+    justify-self: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    
+}
+a:hover{
+    color: #ff630e;
+    cursor: pointer;
+}
+.search input[type=text]{
+    width:250px;
+    height:35px;
+    border-radius:25px 0px 0px 25px;
+    border: none;
+}
+     
+.search{
+    position: relative;
+    float:right;
+    margin:7px;
+}
+     
+.search button{
+    
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#search_bt{
+    background-color: #ff630e;
+    position: absolute;
+    left: 235px;
+}
+#user_bt
+{   
+    
+    margin-left: 35px;
+    color: black;
+    font-size: medium;
+}
+#user_bt:hover
+{
+    color: #ff630e;
+}
+#cart_bt
+{
+
+    margin-left: 15px;
+    color: black;
+}
+#cart_bt:hover{
+    color:#ff630e;
+}
+
+/***************************//*Category bar*//******************/
+.category{
+    display: flex;
+    background-color: white;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px 0px;
+    width: 100%;
+    height: 60px;   
+    border: 1px solid gray;
+    border-top: none;
+    box-shadow: 0px 10px 20px lightgrey;
+}
+.cat{
+    text-align: center;
+}
+.items_category{
+    width: 55px;
+    height: auto;
+}
+.cat:hover a{
+    color: #ff630e;
+}
+.cat:hover .fa-angle-down{
+    transform: rotate(180deg);
+}
+
+
+.dropdown-contant
+{
+    flex: none;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 160px;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: visibility 0s, opacity 0.3s linear;
+}
+.dropdown-contant a{
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-contant{
+    visibility: visible;
+    opacity: 1;
+    
+}
+/*************************//**footer**//***************************/
+
+.footer_container{
+    background-color: rgb(255, 243, 220);
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows:repeat(2,1fr);
+   grid-template-areas: "logo link1 link2 blank"
+                        "social link1 link2 copyright";
+}
+.footer__logo{
+    grid-area: logo;
+    align-self: center;
+    justify-self: center;
+}
+.footer__social{
+    grid-area: social;
+    align-self: center;
+    justify-self: center;
+}
+.footer__social a{
+    display: inline-block;
+    font-size: 18px;
+    transition: all 150ms ease-in-out;
+
+}
+.footer__social a:hover {
+            transform: scale(1.5);
+  }
+  
+  .footer__social a:not(:last-child) {
+    margin-right: 16px;
+  }
+
+.footer__links a:not(:last-child){
+    margin-bottom: 16px;
+}
+.col1
+{
+    grid-area: link1;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+}
+
+.col2{
+    display: flex;
+    flex-direction: column;
+    grid-area: link2;
+    align-self: center;
+    justify-self: start;
+}
+.footer__copyright{
+    grid-area: copyright;
+    align-self: center;
+    justify-self: start;
+}
+
+
+/******************//******log*********//***************/
+
+  
+.account-page
+{
+    z-index: 1;
+    display: block;
+    position: relative;
+    width: 330px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f9f9;
+    
+}
+.overlay{
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.603);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+.gang1{
+    background-color: darkmagenta;
+    padding: 200px;
+}
+.gang2{
+    padding: 400px;
+    background-color: darkorchid;
+}
