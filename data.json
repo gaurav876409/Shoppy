@@ -558,6 +558,285 @@
             "Variant: Kernels, Dried",
             "Container Type: Vacuum Pack" 
         ]
+    },
+    {
+        "id": 704, 
+        "category": "Grocery",
+        "image": ["images/g4a.png", "images/g4b.png", "images/g4c.png", "images/g4d.png", "images/g4e.png"],
+        "name": "Safe Products Cashew Nuts (250 gm)-Roasted and Salted Cashews  (250 g)",
+        "rating": "4.2",
+        "discount": "₹599",
+        "price": "₹499",
+        "description": [
+            "Brand: Safe Products",
+            "Model Name: Cashew Nuts (250 gm)-Roasted and Salted",
+            "Type: Almonds, Figs",
+            "Nutrient Content: Energy 605.4 Kcal Carbohydrates 26.58 gm Sugar 0 gm Protein 19.65 gm Fat 46.68 gm"
+        ]
+    },
+    {
+        "id": 705, 
+        "category": "Grocery",
+        "image": ["images/g5a.png", "images/g5b.png", "images/g5c.png", "images/g5d.png", "images/g5e.png"],
+        "name": "caneen Coconut Milk | Product of Thailand | Non- Diary - 400 Ml each (Pack of 3)  (3 x 400 ml)",
+        "rating": "4.3",
+        "discount": "₹599",
+        "price": "₹499",
+        "description": [
+            "Brand: caneen",
+            "Model Name: Coconut Milk | Product of Thailand | Non- Diary - 400 Ml each (Pack of 3)",
+            "Type: Coconut Milk",
+            "Nutrient Content: calories 140",
+            "Ingredients: Coconut extract, Water"
+        ]
+    },
+    {
+        "id": 706, 
+        "category": "Grocery",
+        "image": ["images/g6a.png", "images/g6b.png", "images/g6c.png", "images/g6d.png", "images/g6e.png"],
+        "name": "Diabexy Diabetic food product Atta Sugar Control for Diabetes - 1kg  (1000 g)",
+        "rating": "4.6",
+        "discount": "₹499",
+        "price": "₹399",
+        "description": [
+            "Brand: Diabexy",
+            "Model Name: Diabetic food product Atta Sugar Control for Diabetes - 1kg",
+            "Type: Multigrain Flour",
+            "Nutrient Content: energy-461 kcal"
+        ]
+    },
+    {
+        "id": 707, 
+        "category": "Grocery",
+        "image": ["images/g7a.png", "images/g7b.png", "images/g7c.png", "images/g7d.png", "images/g7e.png"],
+        "name": "Jay Shree Tea A Birla Product Kashmiri Kahwa Blended With Almonds & Other Indian Spices Darjeeling Green Tea Green Tea Vacuum Pack  (500 g)",
+        "rating": "4.6",
+        "discount": "₹4199",
+        "price": "₹3399",
+        "description": [
+            "Brand: Jay Shree Tea A Birla Product",
+            "Model Name: Kashmiri Kahwa Blended With Almonds & Other Indian Spices Darjeeling Green Tea",
+            "Type: Green Tea",
+            "Tea Form: Leaves",
+            "Regional Speciality: Darjeeling"
+        ]
+    },
+    {
+        "id": 708, 
+        "category": "Grocery",
+        "image": ["images/g8a.png", "images/g8b.png", "images/g8c.png", "images/g8d.png", "images/g8e.png"],
+        "name": "Mr.Kool Premium Products Hamper Combo  (100g, 1g, 20ml, 100g, 100g, 450g, 500g, 100g, 100g, 1g)",
+        "rating": "4.6",
+        "discount": "₹1199",
+        "price": "₹1099",
+        "description": [
+            "Brand: Mr.Kool",
+            "Model Name: Premium Products Hamper",
+            "Primary Product Type: Baking Ingredient",
+            "Secondary Product Type: Protein Supplement",
+            "quantity: 100g, 1g, 20ml, 100g, 100g, 450g, 500g, 100g, 100g, 1g",
+            "Maximum Shelf Life: 9 Months"
+        ]
+    },
+    {
+        "id": 709, 
+        "category": "Grocery",
+        "image": ["images/g9a.png", "images/g9b.png", "images/g9c.png", "images/g9d.png", "images/g9e.png"],
+        "name": "MUSCLEBLAZE Creatine Monohydrate , 100g + Ayurveda MuscleHerb , 30 tablets (Combo Pack) Combo  (100g, 30 Tablets)",
+        "rating": "4.6",
+        "discount": "₹899",
+        "price": "₹799",
+        "description": [
+            "Brand: MUSCLEBLAZE",
+            "Model Name: Creatine Monohydrate , 100g + Ayurveda MuscleHerb , 30 tablets (Combo Pack)",
+            "Primary Product Type: Protein Supplements",
+            "Secondary Product Type: Vitamin Supplement",
+            "Features: Increase strength & power, Enhance energy, Volumizes Muscles and increase lean body mass | Boost Testosteone"
+        ]
+    },
+    {
+        "id": 710, 
+        "category": "Grocery",
+        "image": ["images/g10a.png", "images/g10b.png", "images/g10c.png", "images/g10d.png", "images/g10e.png"],
+        "name": "Dhampur Green Sugar Essentials Variety Pack |Special Baking Pack Combo  (5)",
+        "rating": "4.6",
+        "discount": "₹399",
+        "price": "₹299",
+        "description": [
+            "Brand: Dhampur Green",
+            "Model Name: Sugar Essentials Variety Pack |Special Baking Pack",
+            "Primary Product Type: Cakes & Pastries",
+            "Secondary Product Type: Sugar",
+            "Package Contents: Demerara Sugar (250G), Organic Jaggery Powder (250G), Castor Sugar (250G), Icing Sugar (250G), Breakfast Sugar (250G)"
+        ]
+    },
+    {
+        "id": 711, 
+        "category": "Grocery",
+        "image": ["images/g11a.png", "images/g11b.png", "images/g11c.png", "images/g11d.png", "images/g11e.png"],
+        "name": "RUCHI Combo Pack(Turmeric Powder 250gm,Chilli Powder 100gm, Dalchini Powder 100gm) Combo  (COMBO of 7 items)",
+        "rating": "4.6",
+        "discount": "₹399",
+        "price": "₹299",
+        "description": [
+            "Brand: RUCHI",
+            "Model Name: Combo Pack(Turmeric Powder 250gm,Chilli Powder 100gm Dalchini Powder 100gm)",
+            "Primary Product Type: Spices & Masala",
+            "Secondary Product Type: Spices & Masala",
+            "Package Contents: Chilli Powder - 100gm, Meat Masala 100gm, Chicken Masala 100gm, Egg Curry Masala 50gm, Fish Masala 50gm, Dalchini Powder 100gm, Turmeric Powder- 250gm"
+        ]
+    },
+    {
+        "id": 712, 
+        "category": "Grocery",
+        "image": ["images/g12a.png", "images/g12b.png", "images/g12c.png", "images/g12d.png", "images/g12e.png"],
+        "name": "Ashish Masale CHAT MASALA 70 grm + CHAT MASALA 70 grm (BOTTLE) Combo  (2)",
+        "rating": "4.6",
+        "discount": "₹299",
+        "price": "₹199",
+        "description": [
+            "Brand: Ashish Masale",
+            "Model Name: CHAT MASALA 70 grm + CHAT MASALA 70 grm (BOTTLE)",
+            "Primary Product Type: Spices & Masala",
+            "Secondary Product Type: Spices & Masala",
+            "Package Contents: CHAT MASALA 70 grm + CHAT MASALA 70 grm (BOTTLE)"
+        ]
+    },
+    {
+        "id": 801, 
+        "category": "Kitchen Appliances",
+        "image": ["images/k1a.png", "images/k1b.png", "images/k1c.png", "images/k1d.png", "images/k1e.png"],
+        "name": "SAMSUNG 28 L Convection & Grill Microwave Oven  (MC28A5013AK, Black)",
+        "rating": "4.4",
+        "discount": "₹11999",
+        "price": "₹10999",
+        "description": [        
+            "In The Box: 1 Convection Microwave Oven, Glass Turntable, Wire Rack, Quick Guide Label",
+            "Brand: SAMSUNG",
+            "Model Name: MC28A5013AK",
+            "Type: Convection & Grill",
+            "Capacity: 28 L",
+            "Control Type: Touch Key Pad (Membrane)"
+        ]
+    },
+    {
+        "id": 802, 
+        "category": "Kitchen Appliances",
+        "image": ["images/k2a.png", "images/k2b.png", "images/k2c.png", "images/k2d.png", "images/k2e.png"],
+        "name": "Morphy Richards 60-Litre 510053 Oven Toaster Grill (OTG)  (Silver)",
+        "rating": "4.1",
+        "discount": "₹14999",
+        "price": "₹13999",
+        "description": [        
+            "In The Box: One Unit::Instruction manual::Warranty card::skewer::rotisserie::grill rack::bake tray::crumb tray::rotisserie tong::grill and bake tong::rotisserie skewer",
+            "Brand: Morphy Richards",
+            "Model Name: 60RCSS Luxechef",
+            "Type: Convection",
+            "Capacity: 60 L",
+            "Control Type: Digital"
+        ]
+    },
+    {
+        "id": 803, 
+        "category": "Kitchen Appliances",
+        "image": ["images/k3a.png", "images/k3b.png", "images/k3c.png", "images/k3d.png", "images/k3e.png"],
+        "name": "Hamilton Beach 58770-IN Professional 1400 W Mixer Grinder (3 Jars, Silver, Black)",
+        "rating": "4.5",
+        "discount": "₹26999",
+        "price": "₹25999",
+        "description": [        
+            "In The Box: 1 Mixer Grinder, Chutney Jar, Grinding Jar, Liquidizing Jar, Tamper, Scraper, 2 Filler Caps and Base, User Manual",
+            "Power Required: AC 220 - 240 V",
+            "Revolutions: 18000 rpm",
+            "Material: Stainless Steel",
+            "Dry Grinding: Yes",
+            "Blending: Yes"
+        ]
+    },
+    {
+        "id": 804, 
+        "category": "Kitchen Appliances",
+        "image": ["images/k4a.png", "images/k4b.png", "images/k4c.png", "images/k4d.png", "images/k4e.png"],
+        "name": "Smeg KLF03PKEU Electric Kettle  (1.7 L, Pink)",
+        "rating": "4.5",
+        "discount": "₹20999",
+        "price": "₹18999",
+        "description": [        
+            "In The Box: 1 Kettle, Base, Manual",
+            "Power Required: AC 220 - 240 V",
+            "Power Indicator: Yes",
+            "Lockable Lid: Yes",
+            "Dry Boil Protection: Yes",
+            "Auto Switch Off: Yes",
+            "Heating Element: Concealed Heating Element"
+        ]
+    },
+    {
+        "id": 805, 
+        "category": "Kitchen Appliances",
+        "image": ["images/k5a.png", "images/k5b.png", "images/k5c.png", "images/k5d.png", "images/k5e.png"],
+        "name": "Whirlpool CLASSIC BF 60 BK HOOD 60 cm 750 m³/hr Wall Mounted Chimney  (Black 750 CMH)",
+        "rating": "4.5",
+        "discount": "₹5999",
+        "price": "₹4999",
+        "description": [        
+           "Brand: Whirlpool",
+           "Model Number: CLASSIC BF 60 BK HOOD 60 cm 750 m³/hr",
+           "Mount Type: Wall Mounted",
+           "Material: Stainless Steel",
+           "Air Suction Capacity: 750 CMH",
+           "Control Panel Type: Push Button Control",
+           "Ductless: No",
+           "Filter Type: Baffle Filter"
+        ]
+    },
+    {
+        "id": 806, 
+        "category": "Kitchen Appliances",
+        "image": ["images/k6a.png", "images/k6b.png", "images/k6c.png", "images/k6d.png", "images/k6e.png"],
+        "name": "Hamilton Beach 25341-SAU Waffle, Open Grill  (Black, Silver)",
+        "rating": "4.5",
+        "discount": "₹12999",
+        "price": "₹11999",
+        "description": [        
+           "Brand: Hamilton Beach",
+           "Model Number: 25341-SAU",
+           "Slice Capacity: 2",
+           "Functions: Griddling",
+           "Other Body Features: Cool Touch Handle, Healthy Low-fat Cooking: Slanted Surface Drains Grease and Fat in to Drip Tray"
+        ]
+    },
+    {
+        "id": 807, 
+        "category": "Kitchen Appliances",
+        "image": ["images/k7a.png", "images/k7b.png", "images/k7c.png", "images/k7d.png", "images/k7e.png"],
+        "name": "Panasonic SR-W18GH CMB PACK OF 3 Electric Rice Cooker  (4.4 L, LEMON)",
+        "rating": "4.2",
+        "discount": "₹12999",
+        "price": "₹11999",
+        "description": [        
+          "Model Number: SR-W18GH CMB PACK OF 3",
+          "Type: Rice Cooker",
+          "Color: LEMON",
+          "Capacity: 4.4 L",
+          "Sales Package: 3 main unit and User Manual"
+        ]
+    },
+    {
+        "id": 808, 
+        "category": "Kitchen Appliances",
+        "image": ["images/k8a.png", "images/k8b.png", "images/k8c.png", "images/k8d.png", "images/k8e.png"],
+        "name": "Butterfly Rapid Wet Grinder  (Grey)",
+        "rating": "4.2",
+        "discount": "₹4999",
+        "price": "₹3999",
+        "description": [        
+            "Brand: Butterfly",
+            "Power Requirement: AC 220 - 240 V, 50 Hz",
+            "Power Consumption: 150 W",
+            "Motor Speed: 1300 rpm",
+            "Capacity: 2 L"
+        ]
     }
      
 ]
