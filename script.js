@@ -57,7 +57,6 @@ function myFunction(url) {
 function card(url, name, productCode, rate, price) {
 
 	return `
-	<div class="border">
     <div class="cart-flex">
         <a href="productPage.html?code=${productCode}" target="_blank" class="link-style">
         <div class="card">
@@ -77,7 +76,6 @@ function card(url, name, productCode, rate, price) {
             </div>
         </div>
        </a>
-	</div>
 	</div>
     `;
 

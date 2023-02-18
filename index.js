@@ -7,7 +7,7 @@ fetch("data.json")
     let catArray=new Array();
     let x=document.querySelector(".deal-cards");
     let y=``;
-    let r=Math.floor(Math.random()*5+1)
+    let r=Math.floor(Math.random()*12+1)
     for(let p of data){
         if(`${p.id}`%100==r){
         y +=`${card(p.image[0],p.name,p.id,p.rating,p.price)}`;

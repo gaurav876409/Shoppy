@@ -94,21 +94,7 @@ h1{
     color: #878787;
     margin-top: 11px;
 }
-.quant{
-    display: flex;
-    margin-bottom: 20px;
-}
-.quantity{
-    font-size: 20px;
-    font-weight: 450;
-    margin-right: 10px;
-    color: #0f1111;
-}
-#num{
-    width: 40px;
-    height: 20px;
-    margin-top: 3px;
-}
+
 .purchase{
     display: flex;
     margin-bottom: 20px;
@@ -164,9 +150,13 @@ h1{
     line-height: 1.4;
 }
 .cart-flex{
-    display: flexbox;
-    border: 5px solid black;
-    width: 450px;
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+}
+.sugg-card{
+    display: flex;
+    justify-content: space-around;
 }
 .cart-flex a{
     text-decoration: none;
@@ -181,8 +171,8 @@ h1{
     
 }
 .card img{
-    max-width: 492px;
-    max-height: 492px;
+    width: 298px;
+    height: 300px;
     margin-bottom: 10px;
 }
 .card-detail{
@@ -195,17 +185,38 @@ h1{
 }
 .rate{
     display: flex;
-    color: #878787;
+    color: #8c8a18;
 
 }
 .price{
     display: flex;
-    color: #878787;
+    color: #d4d150;
 }
 .pro-name{
     white-space: nowrap;
     width: 200px;
     overflow: hidden;
     text-overflow: ellipsis;
-    color: #878787;
+    color: #0d394a;
+}
+.rel-pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #3287a8;
+}
+@media screen and (max-width: 740px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .small-image{
+        display: flex;
+        flex-direction: row;
+    }
 }
