@@ -1,27 +1,17 @@
-const searchbtn = document.querySelector('#search_bt');
-const input = document.querySelector('.in_search');
-const searchicon = document.querySelector('.bt_search');
-const navbar = document.querySelector('.container');
-const sticky = navbar.offsetTop;
-const cat = document.querySelector('.cat');
-const more = document.querySelector('.more');
-/*searchbtn.addEventListener('click',function()
+const logbtn = document.getElementById('#user');
+const overlay = document.getElementsByClassName('.overlay');
+const logpage = document.getElementsByClassName('.login');
+
+logbtn.addEventListener('click',function()
 {
-   if(input.classList.contains('hidden'))
+   if(overlay.classList.contains('hidden'))
    {
-        input.classList.remove('hidden');
-        searchicon.classList.remove('fa-search');
-        searchicon.classList.add('fa-close');
+        overlay.classList.remove('hidden');
+        logpage.classList.remove('hidden');
+        logpage.classList.add('account-page_container');
 
    }
-   else
-   {
-    input.classList.add('hidden');
-    searchicon.classList.remove('fa-close');
-        searchicon.classList.add('fa-search');
-   }
 });
-*/
 /*cat.addEventListener("mouseover",function()
 {
      if(more.classList.contains('fa-angle-down'))
