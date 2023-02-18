@@ -78,4 +78,7 @@ function card(url,name,productCode,rate,price){
     `;
 
 }
-
+ function addToCart(){
+	if(localStorage.getItem(id)) localStorage.setItem(id,parseInt(localStorage.getItem(id))+1);
+	else localStorage.setItem(id,1);
+ }
