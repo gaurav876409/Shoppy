@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
   }
+  html{
+    scroll-behavior: smooth;
+  }
   h2{
     text-align: center !important;
     color: orange;
@@ -14,18 +17,7 @@
     height: 350px;
     width: 100%;
   }
-  #slider li{
-    height: 5px;
-    width: 5px;
-    padding: 5px;
-    margin-left: 20px;
-    border-radius: 50%;
-    border:2px solid orange;
-  }
-  #slider .active{
-    transition: 1s;
-    background-color: orange !important;
-  }
+ 
   .deal-cards{
     display: flex;
     justify-content: center;
