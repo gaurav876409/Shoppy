@@ -13,10 +13,10 @@ fetch("data.json")
 		let disprice = document.querySelector(".dis-price");
 		let description = document.querySelector(".des");
 		let suggestion = document.querySelector(".sugg-card");
-		let title=document.querySelector("title");
+		let title = document.querySelector("title");
 		for (let detail of data) {
 			if (`${detail.id}` == id) {
-				title.innerHTML=`${detail.name}`;
+				title.innerHTML = `${detail.name}`;
 				mainimage.innerHTML = `<img src="${detail.image[0]}">`;
 				name.innerHTML = `${detail.name}`;
 				rating.innerHTML = `${detail.rating}`;
@@ -35,46 +35,50 @@ fetch("data.json")
 
 				let z = ``;
 				let count = 0;
-				for(let p of data){
-					if(count<4){ 
-					if(`${p.category}`== `${detail.category}` && `${p.id}`!=id){
-					  z+=`${card(p.image[0],p.name,p.id,p.rating,p.price)}`;
-					  count++;
+				for (let p of data) {
+					if (count < 4) {
+						if (`${p.category}` == `${detail.category}` && `${p.id}` != id) {
+							z += `${card(p.image[0], p.name, p.id, p.rating, p.price)}`;
+							count++;
+						}
 					}
-				  }
 					else break;
-				  }
-				  suggestion.innerHTML = z;
+				}
+				suggestion.innerHTML = z;
 			}
 		}
 	});
 
-function myFunction(url){
+function myFunction(url) {
 	let mainimage = document.querySelector(".main-image");
 	mainimage.innerHTML = `<img src=${url}>`;
 }
 
-function card(url,name,productCode,rate,price){
+function card(url, name, productCode, rate, price) {
 
-    return `
-    <a href="productPage.html?code=${productCode}" target="_blank" class="link-style">
-    <div class="card">
-    <img src='${url}' alt="">
-    <div class="card-detail">
-      <div class="pro-name">${name}</div>
-      <div class="price-rate">
-        <div class="rate">
-          <p>Rating :</p>
-          <p>${rate}/5</p>
+	return `
+	<div class="border">
+    <div class="cart-flex">
+        <a href="productPage.html?code=${productCode}" target="_blank" class="link-style">
+        <div class="card">
+            <img src='${url}' alt="">
+            <div class="card-detail">
+                <div class="pro-name">${name}</div>
+                <div class="price-rate">
+                    <div class="rate">
+                        <p>Rating:</p>
+                        <p>${rate}/5</p>
+                    </div>
+                    <div class="price">
+                        <p>Price:</p>
+                        <p>${price}</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="price">
-          <p>Price :</p>
-          <p>Rs.${price}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  </a>
+       </a>
+	</div>
+	</div>
     `;
 
 }
