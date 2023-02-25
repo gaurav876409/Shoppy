@@ -36,7 +36,7 @@ function card(url,name,productCode,rate,price){
         </div>
         <div class="price">
           <p>Price :</p>
-          <p>Rs.${price}</p>
+          <p>${price}</p>
         </div>
       </div>
     </div>

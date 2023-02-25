@@ -1,61 +1,3 @@
-
-
-/*****scroll bar */
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("nav").style.top = "0";
-  } else {
-    document.getElementById("nav").style.top = "-85px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-
-
-
-/****slide bar */
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("Slides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < slides.length; i++) {
-    slides[i].className = slides[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  slides[slideIndex-1].className += " active";
-  setTimeout(showSlides, 6000);
-}
-
-
-/****testimonial slide */
-let tslideIndex = 0;
-tshowSlides();
-
-function tshowSlides() {
-  let i;
-  let tslides = document.getElementsByClassName("T_Slides");
-  for (i = 0; i < tslides.length; i++) {
-    tslides[i].style.display = "none";  
-  }
-  tslideIndex++;
-  if (slideIndex > tslides.length) {tslideIndex = 1}    
-  for (i = 0; i < tslides.length; i++) {
-    tslides[i].className = tslides[i].className.replace(" active", "");
-  }
-  tslides[tslideIndex-1].style.display = "block";  
-  tslides[tslideIndex-1].className += " active";
-  setTimeout(tshowSlides, 6000);
-}
-
-
 /****login form */
 var LoginForm = document.getElementById("LoginForm");
 var RegForm = document.getElementById("RegForm");
@@ -80,7 +22,7 @@ const body = document.querySelector('body');
 logbtn.addEventListener('click',function()
 {
   console.log('hello');
-   if(overlay.classList.contains('hidden'))
+   if(logpage.classList.contains('hidden'))
    {
         body.classList.add('noscroll');
         overlay.classList.remove('hidden');
@@ -91,7 +33,7 @@ logbtn.addEventListener('click',function()
 });
 logclose.addEventListener('click',function()
 {
-    if(!overlay.classList.contains('hidden'))
+    if(!logpage.classList.contains('hidden'))
    {
         body.classList.remove('noscroll');
         overlay.classList.add('hidden');
@@ -100,3 +42,27 @@ logclose.addEventListener('click',function()
 
    }
 });
+/********mobile menu */
+const ham = document.querySelector('.menu');
+const overlay2 = document.querySelector('.overlay2');
+const m_nav = document.querySelector('.m_nav'); 
+
+ham.addEventListener('click',function()
+{
+  console.log("hello");
+  if(ham.classList.contains('open'))
+  {
+    ham.classList.remove('open');
+    overlay2.classList.add('hidden');
+    body.classList.remove('noscroll');
+    m_nav.classList.add('hidden');
+    
+  }
+  else{
+    ham.classList.add('open');
+    overlay2.classList.remove('hidden');
+    body.classList.add('noscroll');
+    m_nav.classList.remove('hidden');
+  }
+});
+
