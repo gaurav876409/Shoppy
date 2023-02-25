@@ -40,9 +40,7 @@ fetch("data.json")
           <div class="cat">
         <div class="cat-head">
           <h2 class="cat-heading">${cat}</h2>
-          <a href="CategoryPage.html?cat=${cat}" target="_blank">more <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
-            <path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/>
-          </svg></a>
+          <a href="CategoryPage.html?cat=${cat}">Veiw All</a>
         </div>
         <div class="cat-card">${z}</div>
       </div>
@@ -71,8 +69,7 @@ function card(url,name,productCode,rate,price){
           <p>${rate}/5</p>
         </div>
         <div class="price">
-          <p>Price :</p>
-          <p>Rs.${price}</p>
+          <p>${price}</p>
         </div>
       </div>
     </div>
@@ -80,4 +77,8 @@ function card(url,name,productCode,rate,price){
   </a>
     `;
 
+}
+
+function searchbar(event){
+  event.preventDefault();
 }

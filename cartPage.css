@@ -12,6 +12,7 @@
 .cart-item img{
     height: 150px;
     width: 160px;
+    object-fit: contain;
 }
 .cart-info{
     width: 80%;
@@ -32,10 +33,10 @@
 }
 .quantity a{
     text-decoration: none;
-    margin: 0 10px;
-    height: 35px;
-    width: 35px;
-    font-size: 24px;
+    margin: 2px 10px;
+    height: 20px;
+    width: 20px;
+    font-size: 16px;
     font-weight: bolder;
     text-align: center;
     border: 1px solid black;
@@ -45,12 +46,12 @@
 }
 .quantity p{
     border: 2px solid black;
-    height: 35px;
-    width: 35px;
+    height: 24px;
+    width: 24px;
     margin: 0;
     padding: 2px;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
 }
 .subtotal{
     display: flex;
@@ -58,7 +59,7 @@
     justify-content: center;
     font-size: 18px;
 }
-.total,.item-head{
+.item-head{
     display: flex;
     justify-content: right;
     margin:0 5%;
@@ -75,8 +76,37 @@
     justify-content: space-between;
 }
 .total{
+    display: flex;
+    height: 60px;
     font-size: 18px;
     color: black;
+    margin:0 5%;
+    margin-top: 2%;
+    padding: 1%;
+    justify-content: end;
+    gap: 80px;
+}
+#placeorder{
+    display: flex;
+    width: 200px;
+    padding-right: 10px;
+    color: whitesmoke;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+}
+#placeorder a{
+    text-decoration: none;
+}
+#placeorder:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+#Total_div{
+    display: flex;
+    background-color: orange;
+    justify-self: end;
+    align-items: center;
 }
 .total p{
     padding-right: 10px;
@@ -93,4 +123,45 @@
 }
 .total span{
     margin-top: 5px;
+}
+
+@media screen and (max-width: 740px){
+    .cart-item img{
+        width: 100px;
+        height: 110px;
+    }
+    .cart-info h3{
+        font-size: 12px;
+    }
+    .cart-info p{
+        font-size: 10px;
+    }
+    .quantity a{
+        height: 16px;
+        width: 16px;
+        font-size: 12px;
+    }
+    .quantity p{
+        height: 20px;
+        width: 20px;
+    }
+    .subtotal{
+        font-size: 12px;
+    }
+    .item-head p{
+        font-size: 16px;
+
+    }
+    .total{
+        justify-content: space-between;
+    }
+    .total p, span{
+        font-size: 10px;
+    }
+    #placeorder{
+        width: 130px;
+    }
+    
+     
+     
 }

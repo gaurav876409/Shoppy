@@ -6,9 +6,9 @@
 }
 .container{
     width: 100%;
+    display: flex;
 }
 .wrapper{
-    width: 95%;
     height: 100vh;
     margin: auto;
     display: flex;
@@ -17,6 +17,7 @@
 }
 .text{
     flex-basis: 45%;
+    margin-top: 70px;
 }
 .all-image{
     height: 80vh;
@@ -39,10 +40,11 @@
 }
 .small-image img{
     max-width: 92px;
-    max-height: 92px;
+    height: 92px;
     margin-bottom: 8px; 
     opacity: 0.8;
     border: 1px solid #f0f0f0;
+    object-fit: contain;
     
 }
 .small-image img:hover{
@@ -150,55 +152,55 @@ h1{
     line-height: 1.4;
 }
 .cart-flex{
-    border: 1px solid black;
     width: 300px;
-    height: 400px;
+    height: 350px;
 }
 .sugg-card{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
-.cart-flex a{
+  .link-style{
+    display: inline;
     text-decoration: none;
-}
-.card{
-    /* width: 500px; */
+    margin: 10px;
+    color: black;
+  }
+  .card{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.4;
-    
-}
-.card img{
-    width: 298px;
     height: 300px;
-    margin-bottom: 10px;
-}
-.card-detail{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    font-size: 20px;
-    font-weight: 500;
-}
-.rate{
-    display: flex;
-    color: #8c8a18;
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid #d9d9d9;
+  }
+  .card img{
+    display: block;
+    width: 100%;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+  }
 
-}
-.price{
+  .price-rate{
     display: flex;
-    color: #d4d150;
-}
-.pro-name{
+    justify-content: space-between;
+  }
+  .pro-name{
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
     white-space: nowrap;
-    width: 200px;
     overflow: hidden;
     text-overflow: ellipsis;
-    color: #0d394a;
-}
+  }
+  p{
+    margin: 5px;
+  }
+  .rate, .price{
+    display: flex;
+  }
 .rel-pro{
     display: flex;
     justify-content: center;
@@ -209,14 +211,104 @@ h1{
     color: #3287a8;
 }
 @media screen and (max-width: 740px){
-    .wrapper{
-        display: flex;
+  .container{
+    display: block;
+  }  
+  .wrapper{
         flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
+        height: auto;
     }
-    .small-image{
-        display: flex;
-        flex-direction: row;
+    
+.all-image{
+    display: flex;
+    height: 45vh;
+    flex-direction: column-reverse;
+}
+.m-image{
+    border: 1px solid #f0f0f0;
+    width: 260px;
+    height: 230px;
+    align-self: center;
+}
+
+.small-image{
+    flex-direction: row; 
+    
+   
+}
+.small-image img{
+    width: 52px;
+    height: 52px;
+    margin-bottom: 8px; 
+    opacity: 0.8;
+    border: 1px solid #f0f0f0;
+    object-fit: contain;
+    
+}
+.small-image img:hover{
+    opacity: 1;
+}
+.main-image img{
+    width: 100%;
+    height: 192px;
+    object-fit: contain;
+   
+}
+.text{
+  margin-top: 20px;
+}
+
+    .sugg-card{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    justify-content: start;
+    height: 175px;
     }
+    .card{
+      height: 150px;
+      width: 150px;
+    }
+    .cart-flex{
+    width: 100x;
+    height: 150px;
+}
+    .card img{
+      display: block;
+      width: 100%;
+      height: 90px;
+      margin-left: auto;
+      margin-right: auto;
+      object-fit: contain;
+  
+    }
+    .pro-name{
+      font-size: 12px;
+    }
+ 
+  
+    .price, .rate{
+      font-size: 10px;
+    }
+  h1{
+    font-size: 20px;
+  }
+  .star{
+    font-size: 10px;
+  }
+  .pro-det h3{
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  .des{
+    font-size: 16px;
+  }
+  .description{
+    margin-top: 15px;
+  }
+  .rel-pro{
+    font-size: 18px;
+    margin-top: 25px;
+  }
+
+   
 }

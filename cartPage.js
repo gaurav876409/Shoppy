@@ -54,7 +54,7 @@ fetch("data.json")
             
         }
         cart.innerHTML=x;
-        if(totalPrice>0) total.innerHTML=`<p>Total Price:</p><span>${totalPrice}</span>`;
+        if(totalPrice>0) total.innerHTML=`<div id="placeorder"><a href="#"><p>Place Order</p></a></div> <div id="Total_div"><p>Total Price:</p><span>₹${totalPrice}</span></div>`;
        }
     });
 
