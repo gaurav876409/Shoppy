@@ -161,6 +161,13 @@
     #placeorder{
         width: 130px;
     }
+    .empty-container img{
+        width: 100%;
+        height: auto;
+    }
+    .empty-container{
+        margin: 20% 0;
+    }
     
      
      
