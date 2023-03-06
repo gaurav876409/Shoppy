@@ -1,219 +1,246 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  html{
-    scroll-behavior: smooth;
-  }
- 
- .today-deal{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.today-deal {
   display: flex;
   height: 350px;
   margin: 10px;
   font-family: Arial, Helvetica, sans-serif;
- }
- .deals_head
- {
+}
+
+.deals_head {
   width: 710px;
   background-image: url(img/prod3.jpg);
   background-position: 0 bottom;
   background-repeat: no-repeat;
   background-size: contain;
- }
- .deals_head h2{
-   text-align: center;
-   margin-top: 50%;
- }
-  .deal-cards{
-    display: flex;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    gap: 30px;
-    box-shadow: 0px 0px 20px gray;
-    scroll-snap-type: x mandatory;
+}
+
+.deals_head h2 {
+  text-align: center;
+  margin-top: 50%;
+}
+
+.deal-cards {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  gap: 30px;
+  box-shadow: 0px 0px 20px gray;
+  scroll-snap-type: x mandatory;
+}
+
+.deal-cards::-webkit-scrollbar {
+  height: 5px;
+}
+
+.deal-cards::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey;
+  border-radius: 2px;
+}
+
+.deal-cards::-webkit-scrollbar-thumb {
+  background: rgb(140, 102, 255);
+  border-radius: 2px;
+}
+
+.deal-cards::-webkit-scrollbar-thumb:hover {
+  background: #2e295e;
+}
+
+@media screen and (max-width: 740px) {
+  .today-deal {
+    display: block;
+    height: 200px;
   }
-  .deal-cards::-webkit-scrollbar{
-    height: 5px;
+
+  .deals_head {
+    background-image: none;
+    width: 100%;
   }
-  .deal-cards::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 1px grey; 
-    border-radius: 2px;
+
+  .deals_head h2 {
+    margin-top: 5px;
   }
-  .deal-cards::-webkit-scrollbar-thumb {
-    background: rgb(140, 102, 255); 
-    border-radius: 2px;
+
+  .deal-cards {
+    height: 180px;
   }
-  .deal-cards::-webkit-scrollbar-thumb:hover {
-    background: #2e295e; 
-  }
-  @media screen and (max-width: 740px)
-  {
-    .today-deal{
-      display: block;
-      height: 200px;
-    }
-    .deals_head{
-        background-image: none;
-        width: 100%;
-    }
-    .deals_head h2{
-      margin-top: 5px;
-    }
-    .deal-cards{
-      height: 180px;
-    }
 
 
+}
+
+/* Product card */
+.link-style {
+  text-decoration: none;
+  margin: 10px;
+  color: black;
+}
+
+.link-style:hover .card img {
+  transform: scale(1.02);
+  color: black;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+
+}
+
+.price-rate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pro-name {
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+p {
+  margin: 5px;
+}
+
+/* Product category wise */
+.cat {
+  display: flex;
+  height: 350px;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cat-head {
+  margin: 0;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 340px;
+  background-image: url(img/prod4.jpg);
+  background-position: 0 bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cat-head a {
+  text-decoration: none;
+  display: block;
+  background-color: #ff630e;
+  color: #f2f2f2;
+  text-align: center;
+  width: 100px;
+  padding: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.cat-card {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  gap: 30px;
+  box-shadow: 0px 0px 20px gray;
+}
+
+.cat-card::-webkit-scrollbar {
+  height: 5px;
+}
+
+.cat-card::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey;
+  border-radius: 2px;
+}
+
+.cat-card::-webkit-scrollbar-thumb {
+  background: rgb(140, 102, 255);
+  border-radius: 2px;
+}
+
+.cat-card::-webkit-scrollbar-thumb:hover {
+  background: #2e295e;
+}
+
+@media screen and (max-width: 740px) {
+
+  .card {
+    height: 150px;
+    width: 150px;
   }
-  
-  /* Product card */ 
-  .link-style{
-    
-    text-decoration: none;
-    margin: 10px;
-    color: black;
-  }
-  .link-style:hover .card img{
-    transform: scale(1.02);
-    color: black;
-  }
-  .card{
-    display: flex;
-    flex-direction: column;
-    height: 350px;
-    width: 300px;
-    overflow: hidden;
-  }
-  .card img{
+
+  .card img {
     display: block;
     width: 100%;
-    height: 240px;
+    height: 90px;
     margin-left: auto;
     margin-right: auto;
     object-fit: contain;
 
   }
-  
-  .price-rate{
-    display: flex;
-    justify-content: space-between;
-  }
-  .pro-name{
-    margin: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  p{
-    margin: 5px;
+
+  .pro-name {
+    font-size: 12px;
   }
 
-  /* Product category wise */
-  .cat{
-    display: flex;
-    height: 350px;
-    margin: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+  .rate {
+    display: none;
   }
-  .cat-head{
-    margin: 0;
-    padding: 0 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    width: 340px;
-    background-image: url(img/prod4.jpg);
-    background-position: 0 bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  .cat-head a{
-    text-decoration: none;
+
+  .cat {
     display: block;
-    background-color: #ff630e;
-    color: #f2f2f2;
-    text-align: center;
-    width: 100px;
-    padding: 10px 0;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px gray;
-  }
-  .cat-card{
-    display: flex;
-    overflow-x: auto;
-    overflow-y: hidden;
-    gap: 30px;
-    box-shadow: 0px 0px 20px gray;
-  }
-  .cat-card::-webkit-scrollbar{
-    height: 5px;
-  }
-  .cat-card::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 1px grey; 
-    border-radius: 2px;
-  }
-  .cat-card::-webkit-scrollbar-thumb {
-    background: rgb(140, 102, 255); 
-    border-radius: 2px;
-  }
-  .cat-card::-webkit-scrollbar-thumb:hover {
-    background: #2e295e; 
+    height: 430px;
+    margin: 10px;
+    margin-top: 10px;
   }
 
-  @media screen and (max-width: 740px){
-   
-    .card{
-      height: 150px;
-      width: 150px;
-    }
-    .card img{
-      display: block;
-      width: 100%;
-      height: 90px;
-      margin-left: auto;
-      margin-right: auto;
-      object-fit: contain;
-  
-    }
-    .pro-name{
-      font-size: 12px;
-    }
-    .rate{
-      display: none;
-    }
-    .cat{
-      display: block;
-      height: 430px;
-      margin: 10px;
-      margin-top: 10px;
-    }
-    .cat-card{
-      display: grid;
-      overflow: hidden;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      height: 360px;
+  .cat-card {
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 360px;
 
-    }
-    .cat-head{
-      flex-direction: row;
-      gap: 0;
-      justify-content: space-between;
-      height: 70px;
-      background-image: url(img/blur.jpg);
-    }
-    .cat-head a{
-      font-size: 10px;
-      width: 60px;
-    }
-    .price{
-      font-size: 10px;
-    }
   }
-  
 
+  .cat-head {
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+    height: 70px;
+    background-image: url(img/blur.jpg);
+  }
+
+  .cat-head a {
+    font-size: 10px;
+    width: 60px;
+  }
+
+  .price {
+    font-size: 10px;
+  }
+}

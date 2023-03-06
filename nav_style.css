@@ -165,7 +165,7 @@ a:hover{
 /*************************//**footer**//***************************/
 
 .footer_container{
-    background-color: rgb(255, 243, 220);
+   background-color: rgb(255, 243, 220);
    display: grid;
    grid-template-columns: repeat(3,1fr);
    grid-template-rows:repeat(2,1fr);
@@ -189,7 +189,7 @@ a:hover{
 
 }
 .footer__social a:hover {
-            transform: scale(1.5);
+    transform: scale(1.5);
   }
   
   .footer__social a:not(:last-child) {
@@ -248,39 +248,6 @@ a:hover{
   right: 0px;
   background-color: rgba(0, 0, 0, 0.603);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**/
 .gang1{
