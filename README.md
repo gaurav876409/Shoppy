@@ -8,22 +8,34 @@ In home page we created nav bar, category bar, Todays deal section, category sec
 in this Shoppy website we use different category like grocery, electronics, fashion and home appliances. In each category we have 12 products. In our website we have total 96 products and all the required informatio of product is display on product page like product price, name, discount price and additional detail of product. In product page we also have all image of single product. User has atleast 4-5 images of a single product. In product page we also mention related product of that category along with name and price.
 we also created category page, in this page all 12 products are display with single image and price.
 Here, we have made a basic eCommerce website with all the basic functionalities like, showing the product, login and signup for users, adding to the cart using local storage and proceeding for checkout.
+
+--------
+
+
 **Home Page**
+
 ![Home Page](./img/Capture2.PNG "Optional Title")
 
 --------
-**category page**
+
+
+**Category Page**
+
 ![Home Page](./img/Capture.PNG "Optional Title")
 
 --------
 
-**product page**
+**Product Page**
+
 ![Home Page](./img/Capture3.PNG "Optional Title")
 
 --------
 
-**cart page**
+**Cart Page**
+
 ![Home Page](./img/Capture4.PNG "Optional Title")
+
+--------
 
 
 
